@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin-top: 200px;
+    text-align: center;
+}
+.word {
+    text-align: center;
+    font-size: 12px;
+    justify-content: center;
+    width: 50%;
+}
+.buttonsBlock {
+
+    position: fixed;
+    left: 25%;
+    top: 40%;
+    width: 50%;
+}
+button {
+    margin-right: 1%;
+    padding: 20px;
+    background-color: #fff;
+    border: solid 1px gray;
+    border-radius: 30%;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+button:last-child {
+    margin-right: 0;
+}
+button:hover {
+    box-shadow: 3px 3px 12px grey;
+    background-color: #f0f0f0;
+}
+.italic {
+    font-style: italic;
+}
+.bold {
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
+.blue {
+    color: blue;
+}
